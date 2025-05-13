@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> STARTUP LANDING PAGE </title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+
+    <style>
+      body {
+        background-color:  #ec10aa49;
+        font-family: Arial, sans-serif;
+      }
+      .signin-form {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #f0148dd3;
+        box-shadow: 0 4px 8px rgba(241, 17, 155, 0.822);
+        border-radius: 8px;
+      }
+      .signin-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-primary {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">STARTUP LANDING PAGE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LogIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">SignUp</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="login" class="container my-5">
+      <h2>Login</h2>
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" name="password" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      
+      <!-- Forgot Password Link (Just the design link, no action) -->
+      <p class="forgot-password-link">
+        <a href="#">Forgot your password?</a>
+      </p>
+      
+      <p class="text-center mt-3">
+        Don't have an account? <a href="signin.html">Log-In here</a>
+      </p>
+    </div>
+          
+    <footer class="bg-dark text-light py-4">
+          <div class="container text-center">
+            <p>&copy; 2025 Business Corporate | All Rights Reserved</p>
+          </div>
+        </footer>
+    
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+    </html>
+    
